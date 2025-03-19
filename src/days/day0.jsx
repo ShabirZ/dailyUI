@@ -1,11 +1,8 @@
 import { useState } from "react";
 
 function Day0() {
-
-
-  
-
-  return (
+    //day 0
+    return (
     <div className="bg-emerald-900 h-screen flex flex-col justify-center items-center font-bold" >  
         <div className="text-white text-xl shadow-2xl"> Sign Up</div>
         <div className = "sign up card bg-white w-200 h-100 m-5 shadow-2xl bg-zinc-200 flex flex-col justify-center items-center rounded-2xl">  
@@ -21,7 +18,7 @@ function Day0() {
         </div>
 
     </div>
-  );
+    );
 }
 
 export default Day0;
