@@ -39,7 +39,7 @@ function Day2() {
     const [inputExpDate, setExpDate] = useState('');
     return (
     <div className="w-screen h-screen flex justify-center items-center bg-gray-100">
-        <div className= "border-1 w-2/7 h-2/3 shadow-2xl flex flex-col justify-start p-15 gap-15 rounded-2xl">
+        <div className= " w-2/7 h-2/3 shadow-2xl flex flex-col justify-start p-15 gap-15 rounded-2xl">
             <div className="flex flex-col justify-center gap-1">
                 <h1 className="text-3xl font-serif font-extrabold text-sky-700"> Checkout</h1>
                 <h4 className="text-gray-400"> Enter payment information</h4>
